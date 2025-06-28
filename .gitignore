@@ -1,0 +1,19 @@
+# Virtuele omgevingen
+.venv/
+env/
+venv/
+
+# PyCharm bestanden
+.idea/
+*.iml
+
+# Python cache en logs
+__pycache__/
+*.py[cod]
+
+# Gevoelige bestanden
+.venv/.env
+
+# Alle andere Python scripts behalve je hoofdapp
+*.py
+!Euro-Dollar koers app.py
